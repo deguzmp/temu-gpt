@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>LM Studio Wrapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <h1 class="header">TEMU CHAT GPT BABY!</h1>
+            <button id="themeToggle" class="icon-btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">🌓</button>
+        </div>
+
+        <!-- Chat History Area -->
+        <div id="chatHistory" class="chat-history">
+            <div class="message assistant">
+                <div class="bubble">Hello! I'm ready. What's on your mind?</div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <textarea id="promptInput" placeholder="Type your message..."></textarea>
+            <button id="sendBtn" onclick="sendPrompt()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
